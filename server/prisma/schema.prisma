@@ -66,7 +66,7 @@ model SalesSummary {
 model PurchaseSummary {
   purchaseSummaryId String @id
   totalPurchased Float
-  changePercentage Float
+  changePercentage Float?
   date DateTime
 }
 
