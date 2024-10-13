@@ -41,6 +41,6 @@ export const createProduct = async (
 
     res.status(201).json(product);
   } catch {
-    res.status(500).json({ message: "Error retrieving products" });
+    res.status(500).json({ message: "Error create product" });
   }
 };

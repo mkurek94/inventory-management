@@ -45,7 +45,7 @@ const createProduct = (req, res) => __awaiter(void 0, void 0, void 0, function* 
         res.status(201).json(product);
     }
     catch (_a) {
-        res.status(500).json({ message: "Error retrieving products" });
+        res.status(500).json({ message: "Error create product" });
     }
 });
 exports.createProduct = createProduct;
